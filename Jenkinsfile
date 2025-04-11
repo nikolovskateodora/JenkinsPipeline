@@ -16,7 +16,7 @@ pipeline {
         stage('Build image') {
             steps {
                 script {
-                    app = docker.build("nikolovskateodora/JenkinsPipeline")
+                    app = docker.build("nikolovskateodora/jenkinspipeline")
                 }
             }
         }
