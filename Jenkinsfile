@@ -16,7 +16,7 @@ pipeline {
         stage('Build image') {
             steps {
                 script {
-                    app = docker.build("nikolovskateodora/jenkinspipeline")
+                    app = docker.build("teodoranikolovska/jenkinspipeline")
                 }
             }
         }
